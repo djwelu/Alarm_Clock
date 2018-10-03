@@ -1,0 +1,66 @@
+.App {
+  background-color: dodgerblue;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.time {
+  padding: 50px;
+  color: black;
+  font-size: 100px;
+  text-align: center;
+}
+
+.buttonAlign {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: red;
+  font-size: 24px;
+  border: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 12px;
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: darkred}
+
+.button:active {
+  background-color: darkred;
+  box-shadow: 0 2px #666;
+  transform: translateY(3px);
+}
+
+.alarms {
+  width: 470px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
